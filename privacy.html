@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy — Kulprit</title>
+<style>
+  :root{
+    --ground:#F7F2EB; --surface:#FFFCF7; --line:#E4DACC;
+    --ink:#241F1A; --ink2:#5A534B; --ink3:#8A8177;
+    --brand:#0B6E64; --brandInk:#08544C; --accent:#D85A12;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{ --ground:#16130F; --surface:#1E1A16; --line:#332C24;
+           --ink:#F2EAE0; --ink2:#C6BCB0; --ink3:#948A7E; --brand:#4FB3A4; }
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; background:var(--ground); color:var(--ink);
+    font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    -webkit-text-size-adjust:100%;
+  }
+  .wrap{max-width:44rem; margin:0 auto; padding:2.5rem 16px 4rem}
+  a{color:var(--brand)}
+  header{border-bottom:1px solid var(--line); padding-bottom:1.25rem; margin-bottom:2rem}
+  .brand{font-weight:700; letter-spacing:.01em; font-size:1.05rem; color:var(--brandInk)}
+  @media (prefers-color-scheme: dark){ .brand{color:var(--brand)} }
+  h1{font-size:1.9rem; line-height:1.2; margin:.4rem 0 .35rem}
+  .sub{color:var(--ink3); font-size:.9rem; margin:0}
+  h2{font-size:1.15rem; margin:2.25rem 0 .6rem; line-height:1.3}
+  p,li{color:var(--ink2)}
+  li{margin:.3rem 0}
+  .lede{font-size:1.06rem; color:var(--ink)}
+  .card{
+    background:var(--surface); border:1px solid var(--line);
+    border-radius:14px; padding:1.1rem 1.25rem; margin:1.5rem 0;
+  }
+  .card p:first-child{margin-top:0} .card p:last-child{margin-bottom:0}
+  footer{margin-top:3rem; padding-top:1.25rem; border-top:1px solid var(--line);
+         color:var(--ink3); font-size:.85rem}
+  footer a{margin-right:1rem}
+  code{background:var(--surface); border:1px solid var(--line); border-radius:5px;
+       padding:.1rem .35rem; font-size:.9em}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <div class="brand">Kulprit</div>
+  <h1>Privacy</h1>
+  <p class="sub">Last updated 20 September 2026</p>
+</header>
+
+<p class="lede">No account. No servers. <strong>Your data, your phone, your backup.</strong></p>
+
+<p>There is nothing to sign up for, and the app does not send what you log to us or to anyone
+else.</p>
+
+<p>This page explains where your information actually lives, and — just as importantly — the one
+place a copy of it can end up that is not the app.</p>
+
+<h2>What Kulprit stores</h2>
+
+<p>Everything you enter — meals, ingredients, dishes, reactions and symptoms, non-food exposures,
+medications, times and dates, and the settings you choose — is written to a database inside the
+app's own private storage on your phone.</p>
+
+<p>We do not receive any of it. There is no analytics, no crash reporting service, no advertising
+identifier, and no third-party code in the app that reports your use of it back to anyone.</p>
+
+<h2>Backups — the honest part</h2>
+
+<div class="card">
+  <p><strong>If you back up your phone, the backup includes Kulprit's data.</strong> On iPhone that
+  means iCloud Backup; on Android it means Android's own backup to your Google account, where you
+  have it switched on.</p>
+  <p>That copy is yours, held under Apple's or Google's terms rather than ours, and it is what lets
+  your log come back when you set up a new phone. We cannot see it and we cannot reach it.</p>
+  <p>If you would rather it did not happen, both platforms let you turn backup off for individual
+  apps in your phone's settings.</p>
+</div>
+
+<p>We say this plainly because a claim that data never leaves the device would not be true, and an
+app about keeping an honest record should not begin with a claim it cannot keep.</p>
+
+<h2>Files you create yourself</h2>
+
+<p>Kulprit can write two kinds of file when you ask it to: a backup file you can restore from, and
+an export of your log for your own use or to show a clinician. Both are created only when you tap
+the control that creates them, and they are saved wherever you choose to put them. Once a file is
+in a folder you picked, it is governed by that folder — if that is a cloud drive, the file is in
+the cloud drive.</p>
+
+<h2>Notifications</h2>
+
+<p>If you turn on a reminder, it is scheduled by your phone and delivered by your phone. No
+reminder is sent from a server, and nothing about it leaves the device.</p>
+
+<h2>Supporting Kulprit</h2>
+
+<p>If you choose to make a contribution inside the app, the purchase is handled entirely by the
+App Store. We never see your payment details, your name, or your address — Apple tells us only
+that a purchase happened. Nothing you have logged is involved in a purchase in any way.</p>
+
+<h2>Health information, and consent</h2>
+
+<p>What you record in Kulprit is personal and can be sensitive. The app asks for your consent
+before anything about your health is recorded, and nothing about your health is written before you
+give it. You can read what you agreed to, and withdraw it, from <strong>You → Your data → What I
+agreed to</strong>.</p>
+
+<h2>Removing your data</h2>
+
+<p><strong>You → Your data → Erase</strong> removes what you have logged, either a date range or
+all of it. It happens on the device and it is final — we hold no copy to delete on our side,
+because we never had one. Deleting the app also removes its storage; a phone backup made earlier
+may still contain a copy until that backup is replaced or removed.</p>
+
+<h2>Children</h2>
+
+<p>Kulprit is not directed at children and we do not knowingly collect anything from anyone. Since
+the app collects nothing at all, this is a statement about intent rather than about data we hold.</p>
+
+<h2>Changes to this page</h2>
+
+<p>If what the app does changes, this page changes with it, and the date at the top will say when.
+If a change ever meant that information started leaving your device, it would be said here plainly
+and in the app before it happened.</p>
+
+<h2>Contact</h2>
+
+<p>Questions about any of this: <a href="mailto:outsets-epic3p@icloud.com">outsets-epic3p@icloud.com</a></p>
+
+<footer>
+  <a href="./">Kulprit</a>
+  <a href="./support.html">Support</a>
+  <a href="./privacy.html">Privacy</a>
+  <div style="margin-top:.6rem">© 2026 Such Developers</div>
+</footer>
+
+</div>
+</body>
+</html>
